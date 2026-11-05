@@ -547,7 +547,9 @@ const createClusterBadgeIcon = (count, isBreached) => {
 
 const createClusterIcon = (count, isBreached) => createClusterBadgeIcon(count, isBreached);
 
-const BACKEND_URL = "http://localhost:5000/api";
+// const BACKEND_URL = "http://localhost:5000/api";
+
+const BACKEND_URL = "/api";
 
 function LiveCameraCapture({ onCapture, currentLocation, onRetake, t }) {
   const videoRef = useRef(null);
